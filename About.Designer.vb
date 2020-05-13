@@ -30,6 +30,8 @@ Partial Class About
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'Label1
@@ -108,12 +110,35 @@ Partial Class About
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Submitted to: Mr. Christopher Abalorio"
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Calibri", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(132, 412)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(114, 24)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "Source Code"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.Location = New System.Drawing.Point(13, 446)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(353, 18)
+        Me.LinkLabel1.TabIndex = 9
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "https://github.com/Zatania/ComProg-2---Prefinals-Quiz"
+        '
         'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(378, 450)
+        Me.ClientSize = New System.Drawing.Size(378, 496)
+        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -137,4 +162,6 @@ Partial Class About
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
