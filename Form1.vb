@@ -56,6 +56,5 @@ Public Class Form1
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
         Me.Hide()
         About.Show()
-
     End Sub
 End Class
